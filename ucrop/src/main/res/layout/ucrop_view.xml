@@ -10,13 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/ucrop_padding_crop_frame"
-        android:layout_margin="20dp" />
+        android:background="@color/ucrop_color_black" />
 
     <com.yalantis.ucrop.view.OverlayView
         android:id="@+id/view_overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/ucrop_padding_crop_frame"
-        android:layout_margin="10dp" />
+        android:layout_margin="20dp"  />
 
 </merge>
